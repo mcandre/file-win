@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="14.1" version="14.1" Modules="simple" RootPath="." Language="en" Id="{C0E989DB-AEED-4162-8AA3-4302D2F80731}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXProductDetailsComponent;AppXDependenciesComponent;AppXAppDetailsComponent;AppXVisualAssetsComponent;AppXCapabilitiesComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent;MsiThemeComponent;BackgroundImagesComponent;UpdaterComponent;SerValComponent;DigCertStoreComponent;MsiInstExSeqComponent;DictionaryComponent;MsiAppSearchComponent;MsiAssemblyComponent;MsiClassComponent;MsiOdbcDataSrcComponent;MsiServInstComponent;MsiOrgComponent;MsiExtComponent;CPLAppletComponent;ActSyncAppComponent;PreReqComponent;WebApplicationsComponent;TilesComponent;MsiJavaComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;TilesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://gnuwin32.sourceforge.net/packages/file.htm"/>
+    <ROW Property="Manufacturer" Value="GnuWin"/>
+    <ROW Property="ProductCode" Value="1033:{1BA4CB50-5B52-4558-94E9-205AB58DE70A} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="file"/>
+    <ROW Property="ProductVersion" Value="5.3" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{0C88F20D-177C-409F-BE9D-DF9095BF3091}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Magdir_Dir" Directory_Parent="magic_Dir" DefaultDir="Magdir"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="__Dir" Directory_Parent="file_Dir" DefaultDir="5.03"/>
+    <ROW Directory="bin_Dir" Directory_Parent="file5.03bin_Dir" DefaultDir="bin"/>
+    <ROW Directory="cat1_Dir" Directory_Parent="man_Dir" DefaultDir="cat1"/>
+    <ROW Directory="cat1p_Dir" Directory_Parent="man_Dir" DefaultDir="cat1p"/>
+    <ROW Directory="cat3_Dir" Directory_Parent="man_Dir" DefaultDir="cat3"/>
+    <ROW Directory="cat5_Dir" Directory_Parent="man_Dir" DefaultDir="cat5"/>
+    <ROW Directory="contrib_Dir" Directory_Parent="file5.03bin_Dir" DefaultDir="contrib"/>
+    <ROW Directory="file5.03_Dir" Directory_Parent="__Dir" DefaultDir="file-5.03"/>
+    <ROW Directory="file5.03bin_Dir" Directory_Parent="APPDIR" DefaultDir="FILE-5~1.03-|file-5.03-bin"/>
+    <ROW Directory="file5.03src_Dir" Directory_Parent="__Dir" DefaultDir="FILE-5~1.03-|file-5.03-src"/>
+    <ROW Directory="file_Dir" Directory_Parent="contrib_Dir" DefaultDir="file"/>
+    <ROW Directory="magic_Dir" Directory_Parent="file5.03src_Dir" DefaultDir="magic"/>
+    <ROW Directory="man_Dir" Directory_Parent="file5.03bin_Dir" DefaultDir="man"/>
+    <ROW Directory="manifest_Dir" Directory_Parent="file5.03bin_Dir" DefaultDir="manifest"/>
+    <ROW Directory="misc_Dir" Directory_Parent="share_Dir" DefaultDir="misc"/>
+    <ROW Directory="python_Dir" Directory_Parent="file5.03src_Dir" DefaultDir="python"/>
+    <ROW Directory="share_Dir" Directory_Parent="file5.03bin_Dir" DefaultDir="share"/>
+    <ROW Directory="tests_Dir" Directory_Parent="file5.03src_Dir" DefaultDir="tests"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="AUTHORS" ComponentId="{FE0352E8-2612-49AC-BE3A-C6F7ED65C9A0}" Directory_="file5.03src_Dir" Attributes="0" KeyPath="AUTHORS" Type="0"/>
+    <ROW Component="Header" ComponentId="{C354F241-29AE-4BAC-91D5-D76C40D7B65C}" Directory_="magic_Dir" Attributes="0" KeyPath="Header" Type="0"/>
+    <ROW Component="ProductInformation" ComponentId="{FEC5B651-CC0A-4021-B0E6-76DFEF14D16B}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="README" ComponentId="{4F87AA58-2A8D-4DB3-89BA-169B9A907B63}" Directory_="python_Dir" Attributes="0" KeyPath="README" Type="0"/>
+    <ROW Component="README_1" ComponentId="{54E2566F-7A8F-44CD-A3CF-00DE2480B9AF}" Directory_="tests_Dir" Attributes="0" KeyPath="README_2" Type="0"/>
+    <ROW Component="check.log" ComponentId="{6C5C2239-D138-439F-96C2-59AB1DBD404F}" Directory_="file5.03_Dir" Attributes="0" KeyPath="check.log" Type="0"/>
+    <ROW Component="file.1.txt" ComponentId="{B3D05B6C-59E0-40A0-B50E-A1C94CCF9BEF}" Directory_="cat1_Dir" Attributes="0" KeyPath="file.1.txt" Type="0"/>
+    <ROW Component="file.1p.txt" ComponentId="{6B48A7FF-8754-4468-BA68-B061A3AA4B90}" Directory_="cat1p_Dir" Attributes="0" KeyPath="file.1p.txt" Type="0"/>
+    <ROW Component="file.exe" ComponentId="{178CBDFA-C214-48AC-9205-CD3F856AE183}" Directory_="bin_Dir" Attributes="0" KeyPath="file.exe"/>
+    <ROW Component="file5.03GnuWin32.README" ComponentId="{E6F5004E-7576-4EC6-90CE-251B0B8BD406}" Directory_="__Dir" Attributes="0" KeyPath="file5.03GnuWin32.README" Type="0"/>
+    <ROW Component="file5.03bin.mft" ComponentId="{B6E33507-EB85-4DF0-B0E7-BCB3DA95C46B}" Directory_="manifest_Dir" Attributes="0" KeyPath="file5.03bin.mft" Type="0"/>
+    <ROW Component="fonts" ComponentId="{9A06CDDD-F895-472C-A4F2-CE8E9606DC18}" Directory_="Magdir_Dir" Attributes="0" KeyPath="fonts" Type="0"/>
+    <ROW Component="libmagic.3.txt" ComponentId="{63B7334F-7E58-47C6-8EC8-326ACD3A2D2D}" Directory_="cat3_Dir" Attributes="0" KeyPath="libmagic.3.txt" Type="0"/>
+    <ROW Component="magic" ComponentId="{8A99F445-E3A1-45C4-A7C3-430F00001371}" Directory_="misc_Dir" Attributes="0" KeyPath="magic" Type="0"/>
+    <ROW Component="magic.5.txt" ComponentId="{11C6CA84-099F-4648-9CE3-D2C4CEF5A176}" Directory_="cat5_Dir" Attributes="0" KeyPath="magic.5.txt" Type="0"/>
+    <ROW Component="magic1.dll" ComponentId="{98E791E8-22BC-47A0-A161-03B6109DE1B6}" Directory_="bin_Dir" Attributes="0" KeyPath="magic1.dll"/>
+    <ROW Component="regex2.dll" ComponentId="{7832318D-792C-4091-AE9C-38B946B186B1}" Directory_="bin_Dir" Attributes="0" KeyPath="regex2.dll"/>
+    <ROW Component="zlib1.dll" ComponentId="{CCA0A206-39DC-4D59-9C02-1FB7D29D0EAA}" Directory_="bin_Dir" Attributes="0" KeyPath="zlib1.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="AUTHORS Header ProductInformation README README_1 check.log file.1.txt file.1p.txt file.exe file5.03GnuWin32.README file5.03bin.mft fonts libmagic.3.txt magic magic.5.txt magic1.dll regex2.dll zlib1.dll"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="AUTHORS" Component_="AUTHORS" FileName="AUTHORS" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\AUTHORS" SelfReg="false" NextFile="ChangeLog"/>
+    <ROW File="COPYING" Component_="AUTHORS" FileName="COPYING" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\COPYING" SelfReg="false" NextFile="INSTALL"/>
+    <ROW File="ChangeLog" Component_="AUTHORS" FileName="CHANGE~1|ChangeLog" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\ChangeLog" SelfReg="false" NextFile="COPYING"/>
+    <ROW File="Header" Component_="Header" FileName="Header" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\magic\Header" SelfReg="false" NextFile="fonts"/>
+    <ROW File="INSTALL" Component_="AUTHORS" FileName="INSTALL" Attributes="1" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\INSTALL" SelfReg="false" NextFile="Header"/>
+    <ROW File="MAINT" Component_="AUTHORS" FileName="MAINT" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\MAINT" SelfReg="false" NextFile="NEWS_1"/>
+    <ROW File="NEWS_1" Component_="AUTHORS" FileName="NEWS" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\NEWS" SelfReg="false" NextFile="README"/>
+    <ROW File="README" Component_="README" FileName="README" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\python\README" SelfReg="false" NextFile="README_1"/>
+    <ROW File="README_1" Component_="AUTHORS" FileName="README" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\README" SelfReg="false" NextFile="README_2"/>
+    <ROW File="README_2" Component_="README_1" FileName="README" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\tests\README" SelfReg="false" NextFile="TODO"/>
+    <ROW File="TODO" Component_="AUTHORS" FileName="TODO" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\TODO" SelfReg="false" NextFile="file.1.txt"/>
+    <ROW File="check.log" Component_="check.log" FileName="check.log" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03\check.log" SelfReg="false" NextFile="file5.03GnuWin32.README"/>
+    <ROW File="file.1.txt" Component_="file.1.txt" FileName="FILE1~1.TXT|file.1.txt" Attributes="0" SourcePath="file-5.03-bin\man\cat1\file.1.txt" SelfReg="false" NextFile="file.1p.txt"/>
+    <ROW File="file.1p.txt" Component_="file.1p.txt" FileName="FILE1P~1.TXT|file.1p.txt" Attributes="0" SourcePath="file-5.03-bin\man\cat1p\file.1p.txt" SelfReg="false" NextFile="libmagic.3.txt"/>
+    <ROW File="file.exe" Component_="file.exe" FileName="file.exe" Attributes="0" SourcePath="file-5.03-bin\bin\file.exe" SelfReg="false" NextFile="magic1.dll" DigSign="true"/>
+    <ROW File="file5.03GnuWin32.README" Component_="file5.03GnuWin32.README" FileName="FILE-5~1.REA|file-5.03-GnuWin32.README" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-GnuWin32.README" SelfReg="false" NextFile="AUTHORS"/>
+    <ROW File="file5.03bin.mft" Component_="file5.03bin.mft" FileName="FILE-5~1.MFT|file-5.03-bin.mft" Attributes="0" SourcePath="file-5.03-bin\manifest\file-5.03-bin.mft" SelfReg="false" NextFile="file5.03bin.ver"/>
+    <ROW File="file5.03bin.ver" Component_="file5.03bin.mft" FileName="FILE-5~1.VER|file-5.03-bin.ver" Attributes="0" SourcePath="file-5.03-bin\manifest\file-5.03-bin.ver" SelfReg="false" NextFile="magic"/>
+    <ROW File="fonts" Component_="fonts" FileName="fonts" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\magic\Magdir\fonts" SelfReg="false" NextFile="news"/>
+    <ROW File="libmagic.3.txt" Component_="libmagic.3.txt" FileName="LIBMAG~1.TXT|libmagic.3.txt" Attributes="0" SourcePath="file-5.03-bin\man\cat3\libmagic.3.txt" SelfReg="false" NextFile="magic.5.txt"/>
+    <ROW File="magic" Component_="magic" FileName="magic" Attributes="0" SourcePath="file-5.03-bin\share\misc\magic" SelfReg="false" NextFile="magic.mgc"/>
+    <ROW File="magic.5.txt" Component_="magic.5.txt" FileName="MAGIC5~1.TXT|magic.5.txt" Attributes="0" SourcePath="file-5.03-bin\man\cat5\magic.5.txt" SelfReg="false" NextFile="file5.03bin.mft"/>
+    <ROW File="magic.mgc" Component_="magic" FileName="magic.mgc" Attributes="0" SourcePath="file-5.03-bin\share\misc\magic.mgc" SelfReg="false" NextFile="regex2.dll"/>
+    <ROW File="magic1.dll" Component_="magic1.dll" FileName="magic1.dll" Attributes="0" SourcePath="file-5.03-bin\bin\magic1.dll" SelfReg="false" NextFile="check.log"/>
+    <ROW File="news" Component_="fonts" FileName="news" Attributes="0" SourcePath="file-5.03-bin\contrib\file\5.03\file-5.03-src\magic\Magdir\news" SelfReg="false" NextFile="MAINT"/>
+    <ROW File="regex2.dll" Component_="regex2.dll" FileName="regex2.dll" Attributes="0" SourcePath="file-5.03-bin\bin\regex2.dll" SelfReg="false" NextFile="zlib1.dll"/>
+    <ROW File="zlib1.dll" Component_="zlib1.dll" FileName="zlib1.dll" Attributes="0" SourcePath="file-5.03-bin\bin\zlib1.dll" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="." PackageFileName="file-5.03" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="DefaultBuild:[ProgramFilesFolder][Manufacturer]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
+    <ROW Environment="PATH" Name="=-Path" Value="[~];[APPDIR]\file-5.03-bin\bin" Component_="Header"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>
